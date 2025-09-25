@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     if(user.equals("admin") && pass.equals("123")){
                         Toast.makeText(MainActivity.this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
                         // Sau này bạn có thể chuyển sang màn hình HomeActivity
-                        // startActivity(new Intent(MainActivity.this, HomeActivity.class));
+                         startActivity(new Intent(MainActivity.this, PaymentMethodActivity.class));
                     } else {
                         Toast.makeText(MainActivity.this, "Sai tài khoản hoặc mật khẩu", Toast.LENGTH_SHORT).show();
                     }

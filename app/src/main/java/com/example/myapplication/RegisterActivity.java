@@ -42,6 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(RegisterActivity.this, "Đăng ký thành công!", Toast.LENGTH_SHORT).show();
                     // Sau này bạn có thể lưu DB hoặc Firebase ở đây
+                    startActivity(new Intent(RegisterActivity.this, PaymentMethodActivity.class));
                 }
             }
         });
