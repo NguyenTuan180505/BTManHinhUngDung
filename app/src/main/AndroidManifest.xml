@@ -23,6 +23,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".CODGuideActivity" />
+        <activity android:name=".OrderDetailActivity" />
+        <activity android:name=".PaymentMethodActivity" />
+        <activity android:name=".OrderSuccessActivity" />
+        <activity android:name=".ProfileActivity" />
     </application>
 
 </manifest>
