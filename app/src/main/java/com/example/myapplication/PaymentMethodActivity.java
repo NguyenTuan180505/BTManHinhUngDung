@@ -20,6 +20,6 @@ public class PaymentMethodActivity extends AppCompatActivity {
         btnCOD = findViewById(R.id.btnCOD);
 
         btnCOD.setOnClickListener(v ->
-                startActivity(new Intent(PaymentMethodActivity.this, CODGuideActivity.class)));
+                startActivity(new Intent(PaymentMethodActivity.this, CODActivity.class)));
     }
 }
