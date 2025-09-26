@@ -28,6 +28,8 @@
         <activity android:name=".PaymentMethodActivity" />
         <activity android:name=".OrderSuccessActivity" />
         <activity android:name=".ProfileActivity" />
+        <activity android:name=".CODActivity" />
+        <activity android:name=".SuccessActivity" />
     </application>
 
 </manifest>
